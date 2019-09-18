@@ -83,10 +83,11 @@ function onError(reason) {
 
 
 
-function test() {
-    //window.location.href = "loginindex.html";
+
+ function test(){
 	var url='loginindex.html';	
 	openBrowser(url);
+}
 	
 }
 

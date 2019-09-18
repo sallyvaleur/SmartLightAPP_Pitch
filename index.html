@@ -10,31 +10,34 @@
 
 
     <title>Login</title>
+	
 </head>
+
 <body onload="onLoad()">
 
 
-<center>
 	<div class="imgcontainer">
 		<img src="light.png">
 		</div>
 		
     <form>
+	
         <div id="test" class="container">
-            <h1>SmartLight</h1><br />
+		
+        <h1>SmartLight</h1><br />
         </div>
+		
+		
         <div id="test" class="container">
-            <ul id="bleDeviceList"> </ul>
-            <br /><br /><br /><br /><br />
-            <button id="refreshButton" onClick="refreshDeviceList()">Refresh</button>
-           <br /><br /> <br />
-
-
-            <label for="psw"><b>Password</b></label>
-            <br />
-            <!--<input type="tel" placeholder="Enter Password" name="psw" required>-->
-            <br />
-			<button id ="testButton1" onClick = "test()">Login</button>
+		
+         <ul id="bleDeviceList"> </ul> 
+		<button id="refreshButton" onClick = "refreshDeviceList()">Refresh</button>
+		<br>
+		
+		<br><br>
+		<div id="debugDiv"></div>
+		<br>
+		<button id ="testButton1" onClick = "test()">Login</button>	<br><br>ton>
 
         </div>
     </form>
