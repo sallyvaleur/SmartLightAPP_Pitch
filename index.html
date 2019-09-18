@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1" />
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+
+    <title>Login</title>
+</head>
+<body onload="onLoad()">
+
+
+<center>
+	<div class="imgcontainer">
+		<img src="light.png">
+		</div>
+		
+    <form>
+        <div id="test" class="container">
+            <h1>SmartLight</h1><br />
+        </div>
+        <div id="test" class="container">
+            <ul id="bleDeviceList"> </ul>
+            <br /><br /><br /><br /><br />
+            <button id="refreshButton" onClick="refreshDeviceList()">Refresh</button>
+           <br /><br /> <br />
+
+
+            <label for="psw"><b>Password</b></label>
+            <br />
+            <!--<input type="tel" placeholder="Enter Password" name="psw" required>-->
+            <br />
+            <button type="submit" onclick="test()">Login</button>
+
+        </div>
+    </form>
+</body>
+</html>
